@@ -8,8 +8,7 @@
 # Site settings
 title: Sean McIntyre's GitHub
 email: sean@seansworld.com
-description: > # this means to ignore newlines until "baseurl:"
-This is the place where you can find samples of my work.
+description: > # this means to ignore newlines until "baseurl:" This is the place where you can find samples of my work.
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
