@@ -6,143 +6,24 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: WePay Developer Docs
-email: api@wepay.com
+title: Sean McIntyre's GitHub
+email: sean@seansworld.com
 description: > # this means to ignore newlines until "baseurl:"
-  WePay Developer Documentation. Designed for platforms like marketplaces,
-  crowdfunding sites & small business tools. Get a seamless user
-  experience & fraud protection.
+This is the place where you can find samples of my work.
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/api-team/developer-docs" # the subpath of your site, e.g. /blog
-url: "https://pages.github.devops.wepay-inc.com" # the base hostname & protocol for your site
-twitter_username: wepay
-github_username:  wepay
-wepay_font_path: /fonts/NoyhRegular
-wepay_nav_font_path: /fonts/NoyhBookRegular
-wepay_logo_bw: /images/bwlogo.svg
-wepay_developers_logo: "/images/wepay-dev-logo-2x.png"
-wepay_favicon: "/images/favicon.png"
-navigation:
-- text: "Overview"
-  url: "/"
-  pages:
-  - text: "Introduction"
-    url: "/"
-  - text: "Payment Methods"
-    url: "/"
-- text: "Integrating with WePay"
-  url: "/integration/onboarding/"
-  pages:
-  - text: "Onboarding Your Merchants"
-    url: "/integration/onboarding/"
-    pages:
-    - text: "Sub page 1"
-      url: "/integration/onboarding/"
-      pages:
-      - text: "Longer title test yolo swag some api/call"
-        url: "/integration/onboarding/"
-      - text: "Sub sub page 2"
-        url: "/integration/onboarding/"
-      - text: "Sub sub page 3"
-        url: "/integration/onboarding/"
-    - text: "Sub page 2"
-      url: "/integration/onboarding/"
-    - text: "Sub page 3"
-      url: "/integration/onboarding/"
-- text: "Implementation Options"
-  url: "/"
-  pages:
-  - text: "2-step Security"
-    url: "/implementation/mfa/"
-  - text: "Single Sign On (SSO)"
-    url: "/implementation/sso"
-- text: "Enhanced Features"
-  url: "/"
-  pages:
-  - text: "Mobile Point of Sale"
-    url: "/"
-- text: "Developer Guides"
-  url: "/"
-  pages:
-  - text: "Integration Basics"
-    url: "/"
-  - text: "Access Tokens"
-    url: "/guides/access-tokens"
-  - text: "Account ID"
-    url: "/reference/account-id"
-  - text: "Analytics"
-    url: "/guides/analytics"
-  - text: "Customization and Themes"
-    url: "/guides/customization"
-  - text: "Instant Payment Notifications (IPN)"
-    url: "/guides/ipn"
-  - text: "Throttling"
-    url: "/reference/throttling"
-  - text: "Versioning APIs"
-    url: "/reference/versioning"
-- text: "General"
-  url: "/"
-  pages:
-  - text: "Certification"
-    url: "/"
-  - text: "Developer FAQs"
-    url: "/"
-  - text: "Error Codes"
-    url: "/reference/errors"
-  - text: "Making API Calls"
-    url: "/general/api-call"
-  - text: "Merchant Category Codes - U.S."
-    url: "/reference/mcc"
-  - text: "Merchant Category Codes - U.K."
-    url: "/reference/uk_mcc_codes"
-  - text: "Permisions"
-    url: "/reference/permissions"
-  - text: "rbit Types"
-    url: "/reference/rbit_types"
-  - text: "Structures"
-    url: "/reference/structures"
-- text: "API Reference"
-  url: "/"
-  external: true
-  pages:
-    - text: "Account"
-      url: "/api-calls/account/"
-    - text: "Account Membership"
-      url: "/api-calls/account-membership"
-    - text: "Batch"
-      url: "/api-calls/batch"
-    - text: "Checkout"
-      url: "/api-calls/checkout"
-    - text: "Credit Card"
-      url: "/api-calls/credit_card/"
-    - text: "Know Your Customer (KYC)"
-      url: "/api-calls/kyc"
-    - text: "OAuth 2"
-      url: "/api-calls/oauth2"
-    - text: "Payment Bank"
-      url: "/api-calls/payment_bank"
-    - text: "Preapproval"
-      url: "/api-calls/preapproval"
-    - text: "rbit API"
-      url: "/api-calls/rbit"
-    - text: "Reports"
-      url: "/api-calls/reports"
-    - text: "Settlement"
-      url: "/api-calls/settlement"
-    - text: "User"
-      url: "/api-calls/user/"
-    - text: "User MFA"
-      url: "/api-calls/user-mfa/"
-    - text: "Withdrawal"
-      url: "/api-calls/withdrawal"
-
-
-
-
+#baseurl: "/api-team/developer-docs" # the subpath of your site, e.g. /blog
+url: "https://seanmc2.github.io" # the base hostname & protocol for your site
+github_username:  seanmc2
+# wepay_font_path: /fonts/NoyhRegular
+# wepay_nav_font_path: /fonts/NoyhBookRegular
+# wepay_logo_bw: /images/bwlogo.svg
+# wepay_developers_logo: "/images/wepay-dev-logo-2x.png"
+# wepay_favicon: "/images/favicon.png"
+# navigation:
 
 
 # Build settings
@@ -164,7 +45,7 @@ gems:
 
 include: ['_pages']
 
-repository: api-team/developer-docs
+repository: seanmc2.github.io
 
 sass:
     style: :compressed
