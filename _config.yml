@@ -42,7 +42,7 @@ gems:
   - jekyll-gist # Show a gist
 
 
-include: ['_pages']
+#include: ['_pages']
 
 repository: seanmc2.github.io
 
